@@ -1,7 +1,6 @@
 # Math Magician
 
-An apppliacation for calculator to help students.
-
+"Math magicians" is a website for all fans of mathematics.
 ## Screenshots
 ![react](https://user-images.githubusercontent.com/35707975/158350824-a20b1b3d-123c-4232-9c10-5cc3bc257e13.png)
 
