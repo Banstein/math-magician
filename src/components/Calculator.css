@@ -1,0 +1,52 @@
+form {
+  grid-column: 1 / 5;
+  border: none;
+}
+
+input {
+  width: calc(100% - (2 * 15px));
+  height: 5vh;
+  background-color: #85869475;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  padding: 0 15px;
+  text-align: right;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calc-container {
+  background-color: #e0e0e0;
+  display: grid;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  padding: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.calc-container > button {
+  padding: 25px 40px;
+  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #f5913e !important;
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
