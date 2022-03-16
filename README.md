@@ -2,7 +2,7 @@
 
 "Math magicians" is a website for all fans of mathematics.
 ## Screenshots
-![react](https://user-images.githubusercontent.com/35707975/158350824-a20b1b3d-123c-4232-9c10-5cc3bc257e13.png)
+![calc](https://user-images.githubusercontent.com/35707975/158677663-130fd350-9aef-4d18-aae0-aefb7b5b5a30.png)
 
 ## Live Demo
 
