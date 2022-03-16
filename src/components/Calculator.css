@@ -1,3 +1,25 @@
+form {
+  grid-column: 1 / 5;
+  border: none;
+}
+
+input {
+  width: calc(100% - (2 * 15px));
+  height: 5vh;
+  background-color: #85869475;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  padding: 0 15px;
+  text-align: right;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .calc-container {
   background-color: #e0e0e0;
   display: grid;
