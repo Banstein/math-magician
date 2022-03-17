@@ -43,6 +43,14 @@ input[type=number]::-webkit-outer-spin-button {
   cursor: pointer;
 }
 
+button:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.178);
+}
+
+input::placeholder {
+  color: black;
+}
+
 .operator {
   background-color: #f5913e !important;
 }

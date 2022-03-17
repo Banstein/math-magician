@@ -8,7 +8,7 @@ class Calculator extends React.Component {
       <>
         <div className="calc-container">
           <form>
-            <input type="number" />
+            <input type="number" placeholder="0" />
           </form>
           <button type="submit" className="num top-operator">AC</button>
           <button type="submit" className="num top-operator">&plusmn;</button>
