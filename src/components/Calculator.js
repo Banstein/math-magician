@@ -1,6 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prefer-stateless-function */
-
 import React from 'react';
 import calculate from './logic/calculate';
 
@@ -26,13 +23,14 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { total, operation, next } = this.state;
     return (
       <>
         <div className="calc-container">
           <div className="calc-input">
-            {this.state.total}
-            {this.state.operation}
-            {this.state.next}
+            {total}
+            {operation}
+            {next}
           </div>
           <button type="submit" onClick={this.handleClick} className="num top-operator">AC</button>
           <button type="submit" onClick={this.handleClick} className="num top-operator">+/-</button>
