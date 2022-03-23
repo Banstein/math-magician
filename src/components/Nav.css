@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+nav h1 {
+  font-size: 3em;
+}
+
+.links > * {
+  font-size: 2em;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer * {
+  font-size: 1.2em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  font-weight: bold;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+.footer a {
+  color: black;
+}

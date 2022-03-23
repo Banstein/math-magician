@@ -1,34 +1,39 @@
+.calc {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
 .calc-container {
   background-color: #e0e0e0;
   display: grid;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   grid-template-columns: repeat(4, 1fr);
   gap: 2px;
-  padding: 20px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  max-width: 500px;
+  border: 1px #e0e0e0 solid;
+}
+
+.calc h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
 }
 
 .calc-input {
   grid-column: 1 / 5;
   width: calc(100% - (2 * 16px));
-  height: 5vh;
+  height: 60px;
   background-color: #85869475;
   outline: none;
   font-size: 30px;
   padding: 0 15px;
   text-align: right;
-  line-height: 5vh;
-  border: 1px solid rgba(0, 0, 0, 0.384);
+  line-height: 60px;
+  border: 1px rgba(0, 0, 0, 0.308);
+  border-style: solid;
 }
 
 .calc-container > button {
-  padding: 25px 40px;
+  padding: 20px 35px;
   font-size: 30px;
   border: 1px solid rgba(0, 0, 0, 0.233);
   cursor: pointer;
