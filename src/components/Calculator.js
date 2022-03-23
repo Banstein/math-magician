@@ -17,7 +17,8 @@ const Calculator = () => {
     }
   };
   return (
-    <>
+    <div className="calc">
+      <h2>Lets do some math!</h2>
       <div className="calc-container">
         <div className="calc-input">
           {state.total}
@@ -44,7 +45,7 @@ const Calculator = () => {
         <button type="submit" onClick={handleClick} className="num">.</button>
         <button type="submit" onClick={handleClick} className="num operator">=</button>
       </div>
-    </>
+    </div>
   );
 };
 
