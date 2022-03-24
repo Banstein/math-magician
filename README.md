@@ -2,11 +2,15 @@
 
 "Math magicians" is a website for all fans of mathematics.
 ## Screenshots
-![calc](https://user-images.githubusercontent.com/35707975/158677663-130fd350-9aef-4d18-aae0-aefb7b5b5a30.png)
+
+![1 c](https://user-images.githubusercontent.com/35707975/159981368-79ff9199-3e83-4301-a9a2-2f4754a843b8.png)
+![2 c](https://user-images.githubusercontent.com/35707975/159981378-ac1198ab-aa3f-46c6-b347-8c263731bb67.png)
+![3 c](https://user-images.githubusercontent.com/35707975/159981387-5984d6a2-473b-497b-9cff-4e955f8a9ed5.png)
 
 ## Live Demo
 
-Not available yet
+For the live demo check this [Link](https://math-mage-1.herokuapp.com/)
+
 
 ## Built With
 
