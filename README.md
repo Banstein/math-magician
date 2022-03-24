@@ -14,10 +14,8 @@ For the live demo check this [Link](https://math-mage-1.herokuapp.com/)
 
 ## Built With
 
-- HTML
 - CSS
-- JavaScript
-- React
+- React JS
 
 ## Getting Started
 
